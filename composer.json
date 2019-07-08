@@ -1,0 +1,28 @@
+{
+    "name": "cerealkiller/food-book-api",
+    "description": "FoodBook recipe API",
+    "authors": [
+        {
+        "name": "CerealKiller97",
+        "email": "bogdanovic.stefan@outlook.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.12",
+        "firebase/php-jwt": "^5.0",
+        "brossquad/micro-orm": "^0.1.5",
+        "brossquad/fluval": "^3.0",
+        "dusan/php-mvc-dotenv": "^1.2",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "phpunit/phpunit": "^8.2"
+    },
+    "require-dev": {
+        "robmorgan/phinx": "^0.10.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
